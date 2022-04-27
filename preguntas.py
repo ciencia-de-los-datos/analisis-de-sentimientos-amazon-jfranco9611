@@ -99,8 +99,9 @@ def pregunta_04():
     from sklearn.naive_bayes import BernoulliNB
     from sklearn.model_selection import train_test_split
 
+    x_tagged, y_tagged, x_untagged, y_untagged = pregunta_01()
     x_train, x_test, y_train, y_test = pregunta_02()
-    analyzer1 = pregunta_03()
+    analyzer = pregunta_03()
 
     # Cargue las variables.
     (x_train, x_test, y_train, y_test) = train_test_split(
