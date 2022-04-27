@@ -112,7 +112,6 @@ def pregunta_04():
         random_state=12345,
     )
 
-    Analyzer = Vector.build_analyzer
     # Obtenga el analizador de la pregunta 3.
 
     # Cree una instancia de CountVectorizer que use el analizador de palabras
